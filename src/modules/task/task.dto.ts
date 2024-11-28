@@ -11,3 +11,7 @@ export class AddQueueDto {
   @IsOptional()
   taskId: string;
 }
+
+export class AddMultipleDto {
+  ids: string[];
+}
